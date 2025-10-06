@@ -1,4 +1,4 @@
-# Project 1: Customising a Hover Card in SharePoint
+# Customising a Hover Card in SharePoint
 
 ## Project Brief
 The company uses SharePoint Online and requires an efficient method for quickly previewing documents without opening them. While the primary focus is on previewing `.msg` email files in a specific library, the solution should be adaptable to other file types and applicable across any SharePoint library.
@@ -20,7 +20,7 @@ The company uses SharePoint Online and requires an efficient method for quickly 
 - **Scalability**: While designed for one library, the solution should be easily replicable for other libraries if needed.
 - **Focus on `.msg` Files**: Ensure `.msg` files are prioritised in testing, as they are the primary file type for this project.
 
-# Code 1: Hover Card in SharePoint (Email Focused)
+---
 
 ## Code Description
 This solution combines a SharePoint feature with JSON formatting to customise the behaviour of the **Thumbnail** column. It leverages the built-in Thumbnail column available in SharePoint, which provides a small preview of files. The JSON formatting is applied to enlarge the thumbnail dynamically when a user hovers over it, making email `.msg` files more legible.
